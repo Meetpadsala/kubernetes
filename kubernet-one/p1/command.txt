@@ -1,0 +1,8 @@
+nohup kubectl port-forward service/ingress-nginx-controller -n ingress-nginx 8080:80 --address=0.0.0.0 > portforward.log 2>&1 &
+
+website ne live karva mate use thay 6 
+
+ps aux | grep port-forward
+
+aa command thi PID che (process ID) dekha 6 
+pasi kill 12345 enter karo to banth thay jaay
