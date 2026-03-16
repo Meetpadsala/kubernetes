@@ -6,3 +6,9 @@ ps aux | grep port-forward
 
 aa command thi PID che (process ID) dekha 6 
 pasi kill 12345 enter karo to banth thay jaay
+
+docker insatll mate
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
